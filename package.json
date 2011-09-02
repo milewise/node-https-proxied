@@ -1,0 +1,17 @@
+{
+    "name": "https-proxied",
+    "version": "0.0.1",
+    "description": "A https client that works with SSL proxies",
+    "engines": { "node": ">=0.4.0" },
+    "author": "Vinay Pulim <v@pulim.com>",
+    "repository" : { 
+        "type":"git", 
+        "url":"https://github.com/milewise/node-https-proxied.git" },
+    "main": "./index.js",
+    "directories": { "lib": "./lib" },
+    "keywords": ["https", "proxy", "ssl"],
+    "scripts": {"test": "vows test/*-test.js --spec"},
+    "licenses": [{ 
+        "type" :  "MIT License",
+        "url" :   "http://www.opensource.org/licenses/mit-license.php" }]
+}
