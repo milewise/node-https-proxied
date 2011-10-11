@@ -7,11 +7,7 @@ Example
         host: 'encrypted.google.com',
         port: 443,
         path: '/',
-        proxy: {
-            host: 'my-proxy-server.com',
-            port: 3128,
-            login: 'proxyuser:proxypass'
-        }
+        proxy: 'http://user:pass@my-proxy-server.com:3128'
     };
 
     var req = https.get(options, function(res) {

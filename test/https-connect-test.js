@@ -31,11 +31,7 @@ vows.describe('Proxy HTTPS using CONNECT method')
                     host: 'encrypted.google.com',
                     port: 443,
                     path: '/',
-                    proxy: {
-                        host: 'localhost',
-                        port: 9817,
-                        login: 'user:pass'
-                    }
+                    proxy: 'http://user:pass@localhost:9817'
                 };
                 var req = https.get(options, function(res) {
                     self.callback(null, res.statusCode)
