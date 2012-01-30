@@ -1,8 +1,8 @@
 {
     "name": "https-proxied",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A https client that works with SSL proxies",
-    "engines": { "node": ">=0.4.0" },
+    "engines": { "node": ">=0.6.0" },
     "author": "Vinay Pulim <v@pulim.com>",
     "repository" : { 
         "type":"git", 
