@@ -107,7 +107,6 @@ class ConnectionHandler:
             self.client_buffer += self.client.recv(BUFLEN)
             end = self.client_buffer.find('\n')
             if end!=-1:
-                print self.client_buffer
                 break
         sys.stdout.write('%s\n'%self.client_buffer[:end])
         sys.stdout.flush()
